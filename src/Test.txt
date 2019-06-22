@@ -1,0 +1,24 @@
+/* test LL */
+
+LL = LinkedList;
+
+i = 0;
+n = 0;
+temp = 0;
+
+cin(n);
+
+while (i < n){
+     cin(temp);
+     LL.add(temp);
+     i = i + 1;
+}
+
+sizeLL = LL.getSize;
+lastLL = LL.getLast.getValue;
+secondLL = LL.getFirst.getNext.getValue;
+
+cout(sizeLL);
+cout(lastLL);
+cout(secondLL);
+
